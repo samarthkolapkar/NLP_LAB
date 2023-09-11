@@ -55,20 +55,10 @@ for token in about_doc:
 spacy_stopwords = spacy.lang.en.stop_words.STOP_WORDS
 len(spacy_stopwords)
 
-for stop_word in list(spacy_stopwords)[:10]:
-    print(stop_word)
+print([token for token in about_doc if not token.is_stop])
 
-
-# whether
-# among
-# per
-# again
-# how
-# your
-# as
-# have
-# keep
-# herself
+# [Wavelet, soft, -, threshold, de, -, noising, method, applied, preprocess, noisy, signal, ,, 
+#  noise, interference, disturbance, detection, reduced, great, extent, .]
 
 #Lemmitization
 nlp = spacy.load("en_core_web_sm")
