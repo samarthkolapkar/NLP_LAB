@@ -1,7 +1,7 @@
 # Name-Samarth Bhagwat Kolapkar
 # Batch-B2
 # Roll number-32
-# Title-Text Pre-processing using NLP-
+# Title-Text Pre-processing using NLP operations-tokenization,stop words,lemmitization,Part of speech
 
 
 
