@@ -1,3 +1,8 @@
+# Name-Samarth Bhagwat Kolapkar
+# Batch-B2
+# Roll no-32
+# Title- Assignment based on text pre-processing using NLP operations-tokenization,stop words,lemitization and part of speech tagging
+
 import spacy
 nlp = spacy.load("en_core_web_sm")
 about_text = (
